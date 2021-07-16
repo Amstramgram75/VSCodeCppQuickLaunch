@@ -8,7 +8,4 @@ It bothers me !!!
 
 ## First Solution
 I've written a .inf file that adds an entry to the context menu and allows automating the launch of Visual Studio Code in a given folder.   
-
-![alt test](https://github.com/Amstramgram75/VSCodeCppQuickLaunch/blob/main/Launch%20Visual%20Studio%20Code%20C++%20Here.png?raw=true)
-
-
+[![context Menu Entry Snapshot](https://github.com/Amstramgram75/VSCodeCppQuickLaunch/blob/main/Launch%20Visual%20Studio%20Code%20C++%20Here.png?raw=true)](#)
