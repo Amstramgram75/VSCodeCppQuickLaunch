@@ -1,0 +1,44 @@
+[version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = LaunchVSCodeC++Here.Files.Inf
+AddReg    = LaunchVSCodeC++Here.Reg
+
+[DefaultUnInstall]
+DelFiles  = LaunchVSCodeC++Here.Files.Inf
+DelReg    = LaunchVSCodeC++HereUninstall.Reg
+
+[SourceDisksNames]
+55="%LaunchVSCodeC++HereName%","",1
+
+[SourceDisksFiles]
+LaunchVSCodeC++Here.inf=55
+
+[DestinationDirs]
+LaunchVSCodeC++Here.Files.Inf = 17
+
+[LaunchVSCodeC++Here.Files.Inf]
+LaunchVSCodeC++Here.INF
+
+[LaunchVSCodeC++Here.Reg]
+HKLM,%UDHERE%,DisplayName,,"%LaunchVSCodeC++HereName%"
+HKLM,%UDHERE%,UninstallString,,"rundll32.exe syssetup.dll,SetupInfObjectInstallAction DefaultUnInstall 132 %17%\LaunchVSCodeC++Here.inf"
+HKCR,Directory\Background\Shell\LaunchVSCodeC++Here,,,"%LaunchVSCodeC++Here%"
+HKCR,Directory\Background\Shell\LaunchVSCodeC++Here,Icon,,"%VisualStudioCodePath%"
+HKCR,Directory\Background\Shell\LaunchVSCodeC++Here\command,,,"cmd.exe /c call ""%VisualStudioPath%"" && pushd ""%V"" && call code ."
+HKCR,Directory\Shell\LaunchVSCodeC++Here,,,"%LaunchVSCodeC++Here%"
+HKCR,Directory\Shell\LaunchVSCodeC++Here,Icon,,"%VisualStudioCodePath%"
+HKCR,Directory\Shell\LaunchVSCodeC++Here\command,,,"cmd.exe /c call ""%VisualStudioPath%"" && pushd ""%V"" && call code ."
+
+[LaunchVSCodeC++HereUninstall.Reg]
+HKLM,%UDHERE%
+HKCR,Directory\Shell\LaunchVSCodeC++Here
+HKCR,Directory\Background\Shell\LaunchVSCodeC++Here
+
+[Strings]
+LaunchVSCodeC++Here="Launch Visual Studio Code C++ here"
+VisualStudioPath="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\VsDevCmd.bat" 
+VisualStudioCodePath="%LOCALAPPDATA%\Programs\Microsoft VS Code\code.exe" 
+LaunchVSCodeC++HereName="Launch Visual Studio Code C++ here for VS2019 Community"
+UDHERE="Software\Microsoft\Windows\CurrentVersion\Uninstall\LaunchVSCodeC++Here"
