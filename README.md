@@ -18,6 +18,7 @@ ___
 ___
 
 ## First Solution
+Credit goes to [Daniel Cazzulino aka KZU](https://github.com/kzu/CommandPromptHere).  
 Just an *.inf* file that adds an entry to the context menu and allows automating the launch of Visual Studio Code in a given folder.
 
 [![context Menu Entry Snapshot](https://github.com/Amstramgram75/VSCodeCppQuickLaunch/blob/main/img/Launch%20Visual%20Studio%20Code%20C%2B%2B%20Here.png?raw=true)](#)
