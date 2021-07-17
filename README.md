@@ -20,12 +20,12 @@ ___
 ## First Solution
 Just an *.inf* file that adds an entry to the context menu and allows automating the launch of Visual Studio Code in a given folder.
 
-[![context Menu Entry Snapshot](https://github.com/Amstramgram75/VSCodeCppQuickLaunch/blob/main/Launch%20Visual%20Studio%20Code%20C++%20Here.png?raw=true)](#)
+[![context Menu Entry Snapshot](https://github.com/Amstramgram75/VSCodeCppQuickLaunch/blob/main/img/Launch%20Visual%20Studio%20Code%20C%2B%2B%20Here.png?raw=true)](#)
 
 ### Install
 Download the *LaunchVSCodeC++Here.inf* file and install it through the **Install** entry in its context menu.
 
-[![Install INF](https://github.com/Amstramgram75/VSCodeCppQuickLaunch/blob/main/Install%20INF.png?raw=true)](#)
+[![Install INF](https://github.com/Amstramgram75/VSCodeCppQuickLaunch/blob/main/img/Install%20INF.png?raw=true)](#)
 
 ### Uninstall
 Go to *Programs and Features*, find the *Launch Visual Studio Code C++ here for VS2019 Community* entry and double click to uninstall.
