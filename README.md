@@ -3,7 +3,7 @@ Two easy ways to quick Launch Visual Studio Code from Visual Studio Developer Co
 
 ## Why ?
 When working on C++ project with Visual Studio Code, we have to start the IDE from the Visual Studio Developer Command Prompt.    
-So, we fisrt need to launch Visual Studio Developer Command Prompt from the Windows Start Menu, then navigate to our working directory through some repetitive `cd` and finally enter `code .` to  open Visual Studio Code.   
+So, we first need to launch Visual Studio Developer Command Prompt from the Windows Start Menu, then navigate to our working directory through some repetitive `cd` and finally enter `code .` to  open Visual Studio Code.   
 I don't know about you but it bothers me !!! :unamused:
 
 ## Take care !
